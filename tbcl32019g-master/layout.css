@@ -1,0 +1,99 @@
+/* 
+ # Author: Dharma Raj Poudel
+ # Site layout for Educational Instutions
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Anton'); 
+
+ *{padding:0; margin:0;
+ }
+ body{
+ 	background-color:rgba(0, 255, 0, 0.2);
+ }
+
+ i{
+ 	font-size:50px !important;
+ 	color:red;
+ }
+ .row{min-height:20px;border-bottom:1px solid #ffccee;}
+ .col100{min-height:50px;width:100%; }
+ .col75{min-height:50px;width:75%;float:left; }
+ .col50{min-height:50px;	width:50%; float:left;}
+ .col33{min-height:50px;	width:33.33%; 	float:left; }
+ .col25{ 	min-height:50px; width:25%;	float:left; }
+
+
+.mypara{
+	font-family: 'Bungee Inline';
+	font-size:30px;
+	font-weight: 900;
+	color:#ff0000;
+	text-decoration: underline;
+	text-variant:small-caps;
+}
+
+.another{
+	font-family: 'Anton';
+	font-size:12px;
+	font-weight: 900;
+	color:#ff0000;
+	text-decoration: underline;
+	text-variant:small-caps;
+}
+
+#container{
+	width:1140px;
+	min-height:800px;
+	background-color:#ccddee;
+	margin:auto auto;
+}
+
+.responsiveimg{
+	width:100%;
+	height:auto;
+}
+
+.clr{
+	clear:both;
+}
+
+.circleimg{
+	border-radius: 50%;
+}
+
+img:hover{
+	opacity: 0.7;
+}
+
+@media screen and (max-width:1200px)
+{
+	body{
+		background-color:#0000ff;
+	}
+}
+
+@media screen and (max-width:768px)
+{
+	body{
+		background-color:#00ff00;
+	}
+
+	#container{
+		width:700px;
+	}
+	.colmd100{width: 100%}
+	.colmd50{width: 50%; float: left;}
+}
+
+@media screen and (max-width:480px)
+{
+	body{
+		background-color:#ff0000;
+	}
+
+	#container{
+		width:400px;
+	}
+	.coldsm100{width: 100%}
+}
